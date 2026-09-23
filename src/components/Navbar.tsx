@@ -53,8 +53,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end space-x-4">
-                    <button className="btn btn-success text-lg font-semibold text-white">Sign In</button>
-                    <button className="btn btn-info text-lg font-semibold text-white">Sign Up</button>
+                    <button className="btn btn-success text-sm lg:text-lg font-semibold text-white hidden lg:block">Sign In</button>
+                    <button className="btn btn-info text-sm lg:text-lg font-semibold text-white">Sign Up</button>
                 </div>
             </div>
         </div>
