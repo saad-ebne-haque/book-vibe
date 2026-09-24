@@ -43,7 +43,7 @@ const Navbar = () => {
                             {menus}
                         </ul>
                     </div>
-                    <span className="btn btn-ghost text-3xl font-bold text-[#131313]"><Link href='/'>Book Vibe</Link></span>
+                    <span className="btn btn-ghost text-3xl font-bold text-[#131313] font-heading"><Link href='/'>Book Vibe</Link></span>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

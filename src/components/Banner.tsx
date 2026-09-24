@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <>
             <div className="hero bg-base-200 min-h-screen">
-                <div className="hero-content flex-col-reverse lg:flex-row-reverse ">
+                <div className="hero-content flex-col-reverse lg:flex-row-reverse w-full lg:gap-20 gap-6">
                     <Image
                         alt="Tailwind CSS hero component"
                         src="/assets/hero_img.jpg"

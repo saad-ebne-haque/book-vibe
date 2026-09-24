@@ -3,6 +3,7 @@ import "./globals.css";
 import React from "react";
 import { Playfair_Display, Work_Sans } from "next/font/google";
 import { Metadata } from "next";
+import Footer from "@/components/Footer";
 
 const playFairDisplay = Playfair_Display({
   subsets: ['latin'],
@@ -20,14 +21,15 @@ export const metadata:Metadata={
 
 export default function RootLayout({ children }: { children: React.ReactNode; }) {
   return (
-    <html lang="en" data-theme='light' className={`${playFairDisplay.variable} ${workSans.variable}`}>
-      <body>
+    <html lang="en" data-theme='light' className={`${playFairDisplay.variable} ${workSans.variable} `}>
+      <body className="min-h-screen flex flex-col">
         <Navbar></Navbar>
-        <main>
+        <main className="flex-grow">
 
           {children}
 
         </main>
+        <Footer></Footer>
       </body>
     </html>
   );
