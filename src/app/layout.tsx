@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
     <html lang="en" data-theme='light' className={`${playFairDisplay.variable} ${workSans.variable} `}>
       <body className="min-h-screen flex flex-col">
         <Navbar></Navbar>
-        <main className="flex-grow">
+        <main className="grow">
 
           {children}
 

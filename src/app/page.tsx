@@ -1,10 +1,11 @@
-import Banner from "@/components/Banner";
-
+import Banner from "@/components/home/Banner";
+import Books from "@/components/home/Books";
 
 export default function Home() {
   return (
     <>
-    <Banner></Banner>
+      <Banner></Banner>
+      <Books></Books>
     </>
   );
 }
